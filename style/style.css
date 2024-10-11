@@ -26,6 +26,24 @@
   padding: 48px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.common-size {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.c2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
 }
 
 /* common css ends */
@@ -35,7 +53,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 150px;
+  margin: 50px auto;
+  max-width: 1140px;
 }
 
 .nav-title {
@@ -89,13 +108,8 @@ nav {
 
 .banner .description {
   width: 852px;
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
   text-align: center;
   margin-bottom: 32px;
-  opacity: 0.7;
 }
 
 .banner .btn {
@@ -112,12 +126,14 @@ nav {
 
 /* Banner ends */
 /* Web development part starts*/
+/* part 1 */
 
 .about-box {
+  max-width: 1140px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
-  margin: 74px 150px 90px 150px;
-  padding: 80px 97px 80px 97px;
+  padding: 80px 0px;
+  margin: 74px auto 90px auto;
 }
 
 .about {
@@ -133,40 +149,30 @@ nav {
   padding-bottom: 24px;
 }
 
-.about-description {
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
+.about p {
   text-align: center;
-  opacity: 0.7;
 }
+
+/* part 2 */
 
 .about-practice {
   background-color: white;
 }
 
 .practice-card h4 {
-  color: rgba(13, 19, 33, 0.7);
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 36px;
-  margin-bottom: 16px;
+  max-width: 390px;
 }
 
 .practice-card p {
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
   text-align: left;
-  opacity: 0.7;
   margin-bottom: 32px;
 }
 
 .image-card {
   margin-bottom: 19px;
 }
+
+/* part 3 */
 
 .modern-card {
   background: rgba(13, 19, 33, 0.02);
@@ -177,21 +183,11 @@ nav {
 }
 
 .web-card h4 {
-  color: rgba(13, 19, 33, 0.7);
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 36px;
   text-align: left;
-  margin-bottom: 16px;
 }
 
 .web-card p {
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
   text-align: left;
-  opacity: 0.7;
   margin-bottom: 32px;
 }
 
