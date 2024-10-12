@@ -19,6 +19,7 @@
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
   padding: 12px 20px 12px 20px;
+  cursor: pointer;
 }
 
 .card {
@@ -279,3 +280,85 @@ nav {
 }
 
 /* current target part ends */
+/* support part starts */
+
+.support-box {
+  margin: 49px auto 80px auto;
+  background-image: url("../assets/handshake.jpg");
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  border-radius: 16px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.sup1 {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.sup-description {
+  margin: 0 157px 24px 157px;
+}
+
+.sup-description h3 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.sup-description p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+  margin: 0 62px 0 62px;
+}
+
+.input-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.sup1 input[type="text"] {
+  width: 548px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px;
+}
+
+input[type="text"]::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+input[type="submit"] {
+  width: 120px;
+  height: 57px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+/* support part ends */
