@@ -46,6 +46,23 @@
   margin-bottom: 16px;
 }
 
+.s2 {
+  max-width: 1140px;
+}
+
+.common-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.common-box {
+  margin: 0 144px 48px 144px;
+}
+
 /* common css ends */
 /* Navbar Starts */
 
@@ -54,7 +71,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 50px auto;
-  max-width: 1140px;
 }
 
 .nav-title {
@@ -129,24 +145,10 @@ nav {
 /* part 1 */
 
 .about-box {
-  max-width: 1140px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
   padding: 80px 0px;
   margin: 74px auto 90px auto;
-}
-
-.about {
-  margin: 0 144px 48px 144px;
-}
-
-.about-title {
-  color: rgb(13, 19, 33);
-  font-size: 32px;
-  font-weight: 800;
-  line-height: 37px;
-  text-align: center;
-  padding-bottom: 24px;
 }
 
 .about p {
@@ -192,3 +194,25 @@ nav {
 }
 
 /* Web development part ends */
+/* Inspiration part starts */
+
+.inspiration-box {
+  margin: 0 auto 151px auto;
+}
+
+.ins p {
+  text-align: center;
+}
+
+.you-tube {
+  padding: 32px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+
+.you-tube iframe {
+  border-radius: 16px;
+}
+
+/* Inspiration part ends */
