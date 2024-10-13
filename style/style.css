@@ -280,6 +280,42 @@ nav {
 }
 
 /* current target part ends */
+/* Next target part starts */
+
+.c-t {
+  margin: 0 auto;
+}
+
+.n1 {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.nt {
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+.n1 p {
+  margin-bottom: 24px;
+}
+
+.n1 a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
+
+/* Next target part ends */
 /* support part starts */
 
 .support-box {
