@@ -288,7 +288,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.3);
   background-size: cover;
   background-position: center;
-  background-blend-mode: multiply;
+  background-blend-mode: overlay;
   border-radius: 16px;
   padding-top: 64px;
   padding-bottom: 64px;
@@ -362,3 +362,30 @@ input[type="submit"] {
 }
 
 /* support part ends */
+/* footer part starts */
+
+#fot-sec {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+.fo-bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.f1 {
+  display: flex;
+  gap: 24px;
+}
+
+.f1 a {
+  cursor: pointer;
+}
+
+/* footer part ends */
